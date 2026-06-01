@@ -31,5 +31,3 @@ streamlit run app.py
 ## Contributing
 Open an issue or submit a PR. Keep changes small and focused.
 
-## License
-Add a license file if you intend to open-source this project.
