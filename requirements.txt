@@ -1,0 +1,16 @@
+# ─────────────────────────────────────────────
+#  PostCraft — LinkedIn Post Generator
+#  Requirements
+# ─────────────────────────────────────────────
+#  Install:  pip install -r requirements.txt
+#  Run:      streamlit run app.py
+# ─────────────────────────────────────────────
+
+# ── Core UI ──────────────────────────────────
+streamlit>=1.35.0
+
+# ── Google Generative AI ─────────────────────
+google-generativeai>=0.7.0
+
+# ── Utilities ────────────────────────────────
+python-dotenv>=1.0.0
