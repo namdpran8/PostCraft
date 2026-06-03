@@ -23,6 +23,15 @@ Start the Streamlit app:
 streamlit run app.py
 ```
 
+## Deploy on Streamlit Cloud
+1. Push this repository to GitHub.
+2. Create a new app in Streamlit Community Cloud and select this repo.
+3. Set the main file path to `app.py`.
+4. Add a secret named `GEMINI_API_KEY` in the app settings.
+5. Deploy.
+
+The app reads the Gemini key from Streamlit secrets first, then falls back to a local `.env` file for development.
+
 ## Development notes
 - Main entry: `app.py`
 - Helper modules: `prompt_builder.py`, `components.py`, `user_inputs.py`
